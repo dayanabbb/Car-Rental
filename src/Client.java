@@ -7,7 +7,7 @@ public class Client extends User{
         super(id, name, surname, login, password);
         this.telephone = telephone;
     }
-    public String get() {
+    public String getTelephone() {
         return telephone;
     }
     public void setTelephone(String telephone) {
