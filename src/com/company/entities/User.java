@@ -1,3 +1,5 @@
+package com.company.entities;
+
 public abstract class User {
     private int id;
     private String name;
@@ -11,6 +13,12 @@ public abstract class User {
         this.name = name;
         this.surname = surname;
         this.id = id;
+        this.username = username;
+        this.password = password;
+    }
+    public User(String name, String surname, String username, String password) {
+        this.name = name;
+        this.surname = surname;
         this.username = username;
         this.password = password;
     }
@@ -44,7 +52,5 @@ public abstract class User {
     public String getUsername() {
         return username;
     }
-    public String getPosition(){
-        return null;
-    }
+
 }
