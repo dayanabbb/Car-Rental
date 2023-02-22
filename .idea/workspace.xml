@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2075ce7-dda4-4bdc-8c90-1c4eee395cb3" name="Changes" comment="main+functions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e2075ce7-dda4-4bdc-8c90-1c4eee395cb3" name="Changes" comment="ROD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/java/car rental/javaAPP/ROD",
+    "last_opened_file_path": "D:/java/Car-Rental",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,6 +63,7 @@
       <workItem from="1676125268590" duration="5084000" />
       <workItem from="1676374496367" duration="1271000" />
       <workItem from="1676448381237" duration="580000" />
+      <workItem from="1677065765281" duration="1668000" />
     </task>
     <task id="LOCAL-00001" summary="main+functions">
       <created>1676130118899</created>
@@ -73,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676130118899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ROD">
+      <created>1677066822338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677066822338</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="user+client classes" />
     <MESSAGE value="main+functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="main+functions" />
+    <MESSAGE value="ROD" />
+    <option name="LAST_COMMIT_MESSAGE" value="ROD" />
   </component>
 </project>
