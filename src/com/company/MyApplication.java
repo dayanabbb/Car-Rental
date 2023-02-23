@@ -1,7 +1,4 @@
-//добавить проверку пароля на >8
-// изменить данные аккаунта или пароль
-// вернуть машину(удалить owner_id) и деньги(мб штраф)
-// таблица для карт
+
 
 package com.company;
 
@@ -87,8 +84,27 @@ public class MyApplication {
                     }
                 } else if (num == 4) {
                     while (true) {
-                        int clientID = client.getId();
-                        getMyCars(clientID);
+                        System.out.println("    1.My cars \n    2.Change Password");
+                        int num1 = scan.nextInt();
+                        if (num1 == 1){
+                            int clientID = client.getId();
+                            getMyCars(clientID);
+                            System.out.println("exit 5 ");
+                            int Break = scan.nextInt();
+                            if (Break == 5) {
+                                break;
+                            }
+                        }
+                        else if (num1==2){
+                            System.out.println("write new password");
+                            String newPass = scan.next();
+                            Pass(client, newPass);
+                            int Break = scan.nextInt();
+                            if (Break == 5) {
+                                break;
+                            }
+                        }
+
                         int Break = scan.nextInt();
                         if (Break == 5) {
                             break;
