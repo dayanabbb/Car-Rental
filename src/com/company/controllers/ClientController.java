@@ -26,5 +26,9 @@ public class ClientController {
     public List<Client> getAllClients(){
         return repository.getAllClients();
     }
+    
+    
+
+
 
 }
