@@ -285,6 +285,10 @@ public class MyApplication {
         }
 
     }
+     public void Pass(Client client, String newPass){
+        clientController.changePass(client, newPass);
+        System.out.println("Password was successfully changed");
+    }
 
 
 }
