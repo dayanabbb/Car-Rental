@@ -12,7 +12,7 @@ public interface IClientRepository {
 
     List<Client> getAllClients();
 
-
+    Client changePass(Client client, String newPass);
 
 
 }

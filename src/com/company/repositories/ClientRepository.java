@@ -106,5 +106,29 @@ public class ClientRepository implements IClientRepository {
         return null;
     }
 
+    @Override
+    public  Client changePass(Client client, String newPass){
+        Connection connection = null;
+        try {
+            connection = DB.getConnection();
+            String pass = "update clients set password = ? where id= ?";
+            PreparedStatement preparedStatement = connection.prepareStatement(pass);
+            preparedStatement.setString(1, newPass);
+            preparedStatement.setInt(2, client.getId());
+            preparedStatement.executeUpdate();
+        }catch (SQLException throwables) {
+            throwables.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                connection.close();
+            } catch (SQLException throwables) {
+                throwables.printStackTrace();
+            }
+        }
+
+        return  null;
+    }
 
 }
