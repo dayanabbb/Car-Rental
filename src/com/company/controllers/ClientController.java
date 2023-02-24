@@ -27,7 +27,9 @@ public class ClientController {
         return repository.getAllClients();
     }
     
-    
+    public Client changePass(Client client, String newPass){
+        return  repository.changePass(client, newPass);
+    }
 
 
 
